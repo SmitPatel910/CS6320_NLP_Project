@@ -92,7 +92,6 @@ CS6320_NLP_Project
 ├── Frontend
 │   └── index.html
 ├── LICENSE
-├── notes.txt
 ├── Process
 │   ├── Dataset
 │   │   ├── RAW_recipes.csv
