@@ -196,72 +196,9 @@ python run.py --eval_only --train <train_dataset_path> --val <val_dataset_path> 
 ```
 
 ## 🔬 Results and Evaluation
-
-Our dual-model approach demonstrates significant improvements over baseline systems:
-
 ### Recipe Name Generator (GPT-2)
-- **Finetuned GPT Accuracy**: 65.38% on test set
-
-## 👥 Contributions
-
-### Team Member 1
-- Led the fine-tuning of GPT-2 model
-- Designed the input-output protocol for recipe generation
-- Implemented accuracy measurement systems
-
-### Team Member 2
-- Developed the RAG system architecture
-- Built ChromaDB integration
-- Optimized embedding retrieval for performance
-
-### Team Member 3
-- Created the frontend UI/UX design
-- Integrated the backend APIs with the frontend
-- Conducted user testing and feedback collection
-
-## 📊 Self-Scoring
-
-### Team Member 1
-- 80 points - Significant exploration beyond baseline (fine-tuning GPT-2 with custom loss and token embeddings)
-- 30 points - Innovation: Implemented focal loss and dynamic token-type embeddings
-- 10 points - Highlighted complexity: Handled large-scale dataset preprocessing
-- **Total: 120 points**
-
-### Team Member 2
-- 80 points - Significant exploration beyond baseline (advanced RAG implementation)
-- 30 points - Innovation: Created semantic chunking for recipe context preservation
-- 10 points - Highlighted complexity: Developed hybrid search capabilities
-- **Total: 120 points**
-
-### Team Member 3
-- 80 points - Significant exploration beyond baseline (adaptive UI based on model selection)
-- 30 points - Innovation: Created interactive ingredient selection system
-- 10 points - Highlighted complexity: Implemented real-time validation and feedback
-- **Total: 120 points**
-
-## 📝 Lessons Learned & Future Improvements
-
-Throughout this project, we encountered several challenges and gained valuable insights:
-
-### Challenges
-- Handling recipe diversity and variation in ingredient descriptions
-- Balancing creativity and practicality in recipe name generation
-- Ensuring cooking instructions remain accurate and safe
-
-### Future Improvements
-1. **Ingredient Normalization**: Implement a standardized ingredient recognition system
-2. **Multi-language Support**: Extend capabilities to non-English recipes
-3. **Personalization**: Develop user profiles to track preferences and dietary restrictions
-4. **Image Generation**: Add capability to generate representative images of dishes
-5. **Voice Interface**: Implement hands-free operation for kitchen use
+- **BLEU Accuracy**: 65.38% on test set
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Food.com for providing the original dataset
-- HuggingFace for the pre-trained GPT-2 model
-- Google for the Gemini API
-- Our course instructors and TAs for guidance and support
