@@ -120,8 +120,8 @@ CS6320_NLP_Project
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/food-qa.git
-   cd food-qa
+   https://github.com/SmitPatel910/CS6320_NLP_Project.git
+   cd CS6320_NLP_Project
    ```
 
 2. **Create environment file**
