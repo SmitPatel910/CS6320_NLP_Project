@@ -2,9 +2,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import torch
-import re
-import json
-import os
 import logging
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -137,4 +134,4 @@ if __name__ == "__main__":
     load_model()
     
     # Start Flask server
-    app.run(host='0.0.0.0', port=5100, debug=False)
+    app.run(host='0.0.0.0', port=5200, debug=False)
