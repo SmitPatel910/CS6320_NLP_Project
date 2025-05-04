@@ -108,6 +108,8 @@ CS6320_NLP_Project
 │       ├── model.py
 │       └── run.py
 └── README.md
+└── requirements.txt
+
 ```
 
 ## 🚀 How to Execute the Project
