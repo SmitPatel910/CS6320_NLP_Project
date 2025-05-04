@@ -57,11 +57,11 @@ We finetuned GPT-2 model to suggest appropriate recipe names based on ingredient
 Our second component leverages the Retrieval-Augmented Generation approach with Google's Gemini model:
 
 - **Knowledge Base**: Created a specialized database of cooking instructions and techniques
-- **Embedding System**: Vector embeddings stored in ChromaDB for efficient retrieval
+- **Embedding System**: Vector embeddings stored in Faiss for efficient retrieval
 - **Batch Ingestion**: Efficient batch upload process to handle large datasets
 - **Query Processing**:
   1. Embed user's recipe name query
-  2. Retrieve similar documents from ChromaDB
+  2. Retrieve similar documents from Faiss
   3. Generate context-aware prompts for Gemini
   4. Deliver detailed, step-by-step cooking instructions
 
