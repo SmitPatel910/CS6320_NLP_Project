@@ -135,7 +135,7 @@ CS6320_NLP_Project
    ```
 
 4. **Download model weights**
-   - Download the fine-tuned GPT-2 model weights
+   - Download the fine-tuned GPT-2 model [weights](https://drive.google.com/drive/folders/1CaNBXDmeAV1jml8u2GAGYPjRvHT-1cpA?usp=sharing)
    - Place them in `Backend/ft_gpt2_receipeNameGenerator/gpt2-recipes-ft/checkpoints/`
 
 ### Running the Application
