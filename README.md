@@ -1,6 +1,6 @@
 # Food Q&A: AI-Powered Recipe Generator
 
-[![Food Q&A Banner](https://github.com/SmitPatel910/CS6320_NLP_Project/)](https://www.dreamstime.com/illustration/questions-food.html)
+![Food Q&A Banner](https://www.dreamstime.com/questions-answers-food-image267006979)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![GPT-2](https://img.shields.io/badge/Model-GPT--2-brightgreen)
