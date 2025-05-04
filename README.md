@@ -1,9 +1,13 @@
 # Food Q&A: AI-Powered Recipe Generator
-<img src="images/food.png" alt="Food Q&A Banner" width="200"/>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![GPT-2](https://img.shields.io/badge/Model-GPT--2-brightgreen)
-![Gemini](https://img.shields.io/badge/Model-Google%20Gemini-blue)
+<div align="center">
+  <img src="Process/Dataset/food.png" alt="Food Q&A Banner" width="200"/>
+</div>
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/Model-GPT--2-brightgreen" alt="GPT-2">
+  <img src="https://img.shields.io/badge/Model-Google%20Gemini-blue" alt="Gemini">
+</p>
 
 ## 🍽️ Overview
 
