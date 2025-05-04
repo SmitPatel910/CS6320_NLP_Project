@@ -11,7 +11,7 @@
 
 ## 🍽️ Overview
 
-**Food Q&A** is an intelligent culinary assistant that helps users design recipes based on available ingredients and dietary preferences. Our dual-model approach combines the power of a fine-tuned GPT-2 model for recipe name generation with a RAG-based Google Gemini AI system for detailed cooking instructions.
+**Food Q&A** is an intelligent assistant that helps users design recipes based on available ingredients and dietary preferences. Our dual-model approach combines the power of a fine-tuned GPT-2 model for recipe name generation with a RAG-based Google Gemini AI system for detailed cooking instructions.
 
 [**Watch our demo video here**](#) (Video coming soon)
 
@@ -29,7 +29,7 @@ These hypotheses drove our dual-system approach, leveraging the complementary st
 
 ### 1. Fine-tuned GPT-2 Recipe Name Generator
 
-We developed a specialized GPT-2 model to suggest appropriate recipe names based on ingredients and tags:
+We finetuned GPT-2 model to suggest appropriate recipe names based on ingredients and tags:
 
 - **Base Model**: Started with the pre-trained GPT-2.0 model
 - **Dataset**: Utilized Recipe.CSV dataset containing 231,637 recipes
@@ -41,14 +41,6 @@ We developed a specialized GPT-2 model to suggest appropriate recipe names based
   - Epochs: 5
   - Batch size: 4
   - Learning rate: 5e-5
-- **Training Progress**:
-  ```
-  {'loss': 0.5107, 'grad_norm': 0.3902740478515625, 'learning_rate': 4.000172681747539e-05, 'epoch': 1.0}
-  {'loss': 0.4136, 'grad_norm': 0.4993796646595001, 'learning_rate': 3.000259022621309e-05, 'epoch': 2.0}
-  {'loss': 0.3736, 'grad_norm': 0.3925269842147827, 'learning_rate': 2.0003453634950785e-05, 'epoch': 3.0}
-  {'loss': 0.3508, 'grad_norm': 0.4521486759185791, 'learning_rate': 1.0004317043688482e-05, 'epoch': 4.0}
-  {'loss': 0.3386, 'grad_norm': 0.3237, 'learning_rate': 5.18045e-07, 'epoch': 5.0}
-  ```
 - **Model Performance**:
   - Validation Accuracy: 65.24%
   - Test Accuracy: 65.38%
