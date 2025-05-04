@@ -166,7 +166,7 @@ Food Q&A offers two primary modes:
 ## 🔄 Reproducing the Dataset and Model Weights
 
 ### Dataset Acquisition
-1. Download the raw dataset from [Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
+1. Download the raw dataset from [Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)
 2. Place the downloaded file in `Process/Dataset/`
 
 ### Data Preprocessing
