@@ -197,6 +197,7 @@ python run.py --eval_only --train <train_dataset_path> --val <val_dataset_path> 
 
 ## 🔬 Results and Evaluation
 ### Recipe Name Generator (GPT-2)
+- **BLEU Accuracy**: 65.24% on validation set
 - **BLEU Accuracy**: 65.38% on test set
 
 ## 📜 License
