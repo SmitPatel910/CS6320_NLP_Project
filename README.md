@@ -200,14 +200,7 @@ python run.py --eval_only --train <train_dataset_path> --val <val_dataset_path> 
 Our dual-model approach demonstrates significant improvements over baseline systems:
 
 ### Recipe Name Generator (GPT-2)
-- **Accuracy**: 65.38% on test set
-- **Human Evaluation**: 4.3/5 average user satisfaction rating
-- **BLEU Score**: 0.72 for recipe name generation
-
-### Cooking Instructions (RAG + Gemini)
-- **Instruction Completeness**: 92% of generated instructions covered all necessary steps
-- **Factual Accuracy**: 89% accuracy in cooking technique descriptions
-- **User Testing**: 4.7/5 average rating for instruction clarity
+- **Finetuned GPT Accuracy**: 65.38% on test set
 
 ## 👥 Contributions
 
