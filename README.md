@@ -14,6 +14,7 @@
 **Food Q&A** is an intelligent assistant that helps users design recipes based on available ingredients and dietary preferences. Our dual-model approach combines the power of a fine-tuned GPT-2 model for recipe name generation with a RAG-based Google Gemini AI system for detailed cooking instructions.
 
 [**Watch our demo video here**](#) (Video coming soon)
+Report Link: https://docs.google.com/document/d/1zK7wh10BbEDJuVGMQpf6KQ4d5c4e2LjMlTff4wMDR8o/edit?usp=sharing
 
 ## 🧪 Hypothesis & Learning Motivation
 
